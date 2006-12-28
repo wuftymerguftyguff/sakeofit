@@ -23,7 +23,7 @@ import com.google.gwt.user.client.ui.HTML;
 public class Info extends Sink {
 
   public static SinkInfo init() {
-    return new SinkInfo("Info", "BigDogCox") {
+    return new SinkInfo("Info", "Tester") {
       public Sink createInstance() {
         return new Info();
       }
